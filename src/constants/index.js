@@ -11,10 +11,10 @@ const navLinks = [
         name: "Skills",
         link: "#skills",
     },
-    {
-        name: "Testimonials",
-        link: "#testimonials",
-    },
+    // {
+    //     name: "Testimonials",
+    //     link: "#testimonials",
+    // },
 ];
 
 const words = [
@@ -30,8 +30,8 @@ const words = [
 
 const counterItems = [
     { value: 3, suffix: "+", label: "Years of Experience" },
-    { value: 200, suffix: "+", label: "Satisfied Clients" },
-    { value: 108, suffix: "+", label: "Completed Projects" },
+    { value: 20, suffix: "+", label: "Satisfied Clients" },
+    { value: 50, suffix: "+", label: "Open source-Contributions" },
     { value: 90, suffix: "%", label: "Client Retention Rate" },
 ];
 

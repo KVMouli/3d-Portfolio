@@ -12,7 +12,7 @@ const LogoIcon = ({ icon }) => {
 
 export const LogoSection = () => {
     return (
-        <div className="w-full h-full md:px-20 px-5">
+        <div id="skills" className="w-full h-full md:px-20 px-5">
             <TitleHeader
                 title="My Career TechStack"
                 // sub="💼 My Career TechStack"
