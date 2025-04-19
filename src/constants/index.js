@@ -1,21 +1,83 @@
+import {
+    ltim,digitoid
+}from '/src/utils/company';
+
+
 const navLinks = [
     {
         name: "Work",
         link: "#work",
     },
+
+    // {
+    //     name: "Skills",
+    //     link: "#skills",
+    // },
     {
         name: "Experience",
         link: "#experience",
-    },
-    {
-        name: "Skills",
-        link: "#skills",
     },
     // {
     //     name: "Testimonials",
     //     link: "#testimonials",
     // },
 ];
+
+const experiences = [
+    {
+        title: "React.js Developer",
+        company_name: "Digitoid Solutions",
+        icon:digitoid ,
+        iconBg: "#383E56",
+        date: "July 2021 - November 2021",
+        points: [
+            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Participating in code reviews and providing constructive feedback to other developers.",
+        ],
+    },
+    // {
+    //     title: "React Native Developer",
+    //     company_name: "Tesla",
+    //     // icon: tesla,
+    //     iconBg: "#E6DEDD",
+    //     date: "Jan 2021 - Feb 2022",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
+    // {
+    //     title: "Web Developer",
+    //     company_name: "Shopify",
+    //     // icon: shopify,
+    //     iconBg: "#383E56",
+    //     date: "Jan 2022 - Jan 2023",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
+    {
+        title: "Full stack Developer",
+        company_name: "LTIMindtree",
+        icon: ltim,
+        iconBg: "#dde6e6",
+        date: "July 2022 - Present",
+        points: [
+            "Developing and maintaining web applications using React.js , Angular and other related technologies.",
+            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Participating in code reviews and providing constructive feedback to other developers.",
+        ],
+    },
+];
+
 
 const words = [
     { text: "Ideas", imgPath: "/images/ideas.svg" },
@@ -37,13 +99,13 @@ const counterItems = [
 
 const logoIconsList = [
     {
-        imgPath: "/images/logos/company-logo-1.png",
+        imgPath: "/images/logos/rlogo.png",
     },
     {
-        imgPath: "/images/logos/company-logo-2.png",
+        imgPath: "/images/logos/Alogo.png",
     },
     {
-        imgPath: "/images/logos/company-logo-3.png",
+        imgPath: "/images/logos/.png",
     },
     {
         imgPath: "/images/logos/company-logo-4.png",
@@ -275,4 +337,5 @@ export {
     techStackIcons,
     techStackImgs,
     navLinks,
+    experiences
 };

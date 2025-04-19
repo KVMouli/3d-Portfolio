@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar.jsx";
 import {LogoSection} from "./components/LogoSection.jsx";
 import Contact from "./sections/Contact.jsx";
 import Footer from "./sections/Footer.jsx";
+import Experience from "./sections/Experience.jsx";
 
 
 const App = () => {
@@ -12,7 +13,8 @@ const App = () => {
             <NavBar/>
             <Hero/>
             <ShowcaseSection/>
-            <LogoSection/>
+            {/*<LogoSection/>*/}
+            <Experience />
             <Contact/>
             <Footer/>
         </>
