@@ -9,10 +9,10 @@ const navLinks = [
         link: "#work",
     },
 
-    // {
-    //     name: "Skills",
-    //     link: "#skills",
-    // },
+    {
+        name: "Skills",
+        link: "#skills",
+    },
     {
         name: "Experience",
         link: "#experience",
@@ -99,37 +99,35 @@ const counterItems = [
 
 const logoIconsList = [
     {
-        imgPath: "/images/logos/rlogo.png",
+        imgPath: "/images/logos/Angular.svg",
     },
     {
-        imgPath: "/images/logos/Alogo.png",
+        imgPath: "/images/logos/react-icon.svg",
     },
     {
-        imgPath: "/images/logos/.png",
+        imgPath: "/images/logos/javascript-icon.svg",
     },
     {
-        imgPath: "/images/logos/company-logo-4.png",
+        imgPath: "/images/logos/typescript-icon.svg",
     },
     {
-        imgPath: "/images/logos/company-logo-5.png",
+        imgPath: "/images/logos/tailwind-icon.svg",
     },
     {
-        imgPath: "/images/logos/company-logo-6.png",
+        imgPath: "/images/logos/node.png",
     },
     {
-        imgPath: "/images/logos/company-logo-7.png",
+        imgPath: "/images/logos/css-icon.svg",
     },
     {
-        imgPath: "/images/logos/company-logo-8.png",
+        imgPath: "/images/logos/html-icon.svg",
     },
     {
-        imgPath: "/images/logos/company-logo-9.png",
+        imgPath: "/images/logos/git.svg",
     },
+
     {
-        imgPath: "/images/logos/company-logo-10.png",
-    },
-    {
-        imgPath: "/images/logos/company-logo-11.png",
+        imgPath: "/images/logos/gitlab.svg",
     },
 ];
 
